@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+.accordion {
+    width: 700px;
+    margin: 100px auto;
+}
+
+.item{
+    color: teal;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border-top: 3px solid teal;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* wrapping into a new header element 
+ and layout using flexbox for header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.number{
+
+}
+
+.text{
+
+}
+
+/* stroke to manipulate icon color */
+.icon{
+    height: 24px;
+    width: 24px;
+    stroke: teal;
+}
+
+.hidden-box{
+    color: black;
+    font-weight: lighter;
+    padding: 16px 72px;
+    font-size: 16px;
+}
+
+.hide{
+    display: none;
+}
+
+.hidden-box p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.hidden-box ul{
+    list-style-position: inside;
+    color: gray;
+}
+
+.hidden-box li{
+    margin-bottom: 8px;
+}

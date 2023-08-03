@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+.accordion {
+    width: 700px;
+    margin: 100px auto;
+}
+/* layout using grid */
+.item{
+    color: teal;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border-top: 3px solid teal;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    gap: 18px;
+}
+
+.number{
+
+}
+
+.text{
+
+}
+
+/* stroke to manipulate icon color */
+.icon{
+    height: 24px;
+    width: 24px;
+    stroke: teal;
+}
+
+.hidden-box{
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+    grid-row: 2;
+    grid-column: 2/-1;
+}
+
+.hide{
+    display: none;
+}
+
+.hidden-box p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+
+}
+.hidden-box ul{
+    list-style-position: inside;
+    color: gray;
+}
+
+.hidden-box li{
+    margin-bottom: 8px;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+/* 
+    change font size to 10px (16 * 62.5 / 100) 
+    so we can use 1 rem = 10px while respecting the user fontsize
+     */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1.6rem;
+}
+
+.pagination{
+    
+    width: 50rem;
+    margin: 10rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.page-links{
+    width: 4.8rem;
+    height: 4.8rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-links:hover{
+    background-color: teal;
+    color: white;
+}
+
