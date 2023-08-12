@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  background-color: wheat;
+  border: 1px solid black;
+  font-size: 18px;
+  width: 800px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tbody {
+  background-color: rgb(223, 216, 216);
+}
+
+th {
+  background-color: teal;
+  color: white;
+  width: 25%;
+}
+
+th,
+td {
+  padding: 8px 16px;
+}
+
+/* adding zebra strides */
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
